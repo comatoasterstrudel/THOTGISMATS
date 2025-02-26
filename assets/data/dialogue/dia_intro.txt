@@ -1,0 +1,12 @@
+...:0.06:stare:default:right:
+Mic check- 1.. 2.. 3..:0.03:neutralgazing:coma:right:
+Can you hear me?:0.03:huh:coma:right:
+...:0.06:stare:default:right:
+Ok good.:0.03:neutral:coma:right:
+Hiiiiii.:0.03:happy:coma:right:
+...:0.06:neutralgazing:default:right:
+I dont know what to say now.:0.03:stare:coma:right:
+Sorry I kind of suck at talking.:0.03:stare:coma:right:
+(Despite the fact im writing this and not talking-):0.015:neutralgazing:coma:right:
+Anyway- to ease the awkwardness-:0.03:neutral:coma:right:
+I'm going to play some music, hold on.:0.03:happy:coma:right:
