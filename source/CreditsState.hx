@@ -27,7 +27,7 @@ class CreditsState extends FlxState
 		add(fun);
 
 		var nameText = new FlxText(0, 0, 0, crediotarray[0], 40);
-		nameText.setFormat(Paths.font("Andy.ttf"), 40, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
+		nameText.setFormat(Utilities.font, 40, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 		nameText.borderSize = 2;
 		nameText.antialiasing = true;
 		nameText.screenCenter();

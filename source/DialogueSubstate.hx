@@ -33,7 +33,7 @@ class DialogueSubstate extends FlxSubState
 			finishCallback = finishthing;
 
 		fileName = 'dialogue/dia_' + dialogueFileName;
-		if (!FileSystem.exists(Paths.txt(fileName)))
+		if (!OpenFlAssets.exists(Paths.txt(fileName)))
 			fileName = 'dialogue/dia_test';
 
 		dialogueData = Utilities.dataFromTextFile(Paths.txt(fileName));
@@ -60,7 +60,7 @@ class DialogueSubstate extends FlxSubState
 		add(diaBox);
 
 		diaText = new FlxTypeText(0, diaBox.y + 35, Std.int(diaBox.width - 50), 'WOAHAAAHHAHAHAHAHA', 40);
-		diaText.setFormat(Paths.font("Andy.ttf"), 40, FlxColor.WHITE, LEFT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
+		diaText.setFormat(Utilities.font, 40, FlxColor.WHITE, LEFT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 		diaText.borderSize = 2;
 		diaText.antialiasing = true;
 		diaText.screenCenter(X);
@@ -76,7 +76,7 @@ class DialogueSubstate extends FlxSubState
 		}
 		else
 		{
-			diaText.font = Paths.font('Andy.ttf');
+			diaText.font = Utilities.font;
 			diaText.size = 40;
 			diaBox.loadGraphic(Paths.image('dialogueBox'));
 		}

@@ -1,4 +1,6 @@
+#if windows
 import Sys.sleep;
+#end
 import flixel.FlxBasic;
 import flixel.FlxCamera;
 import flixel.FlxG;
@@ -29,8 +31,7 @@ import flixel.math.FlxMath;
 import flixel.math.FlxMath;
 import flixel.math.FlxPoint;
 import flixel.system.FlxAssets;
-import flixel.system.FlxSound;
-import flixel.system.ui.FlxSoundTray;
+import flixel.sound.FlxSound;
 import flixel.text.FlxText;
 import flixel.tweens.FlxEase;
 import flixel.tweens.FlxTween;
@@ -42,8 +43,6 @@ import flixel.util.FlxSave;
 import flixel.util.FlxTimer;
 import haxe.Exception;
 import haxe.io.Path;
-import hscript.Expr;
-import hscript.Interp;
 import lime.app.Application;
 import openfl.Assets;
 import openfl.display.Bitmap;
@@ -54,8 +53,6 @@ import openfl.text.TextFormat;
 import openfl.text.TextFormat;
 import openfl.utils.AssetType;
 import openfl.utils.Assets as OpenFlAssets;
-import sys.FileSystem;
-import sys.io.File;
 
 using StringTools;
 
